@@ -1,0 +1,16 @@
+[project]
+name = "crewai-flowpractice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "black>=26.5.1",
+    "crewai[tools]==1.14.7",
+    "dotenv>=0.9.9",
+    "fastapi>=0.137.2",
+    "isort>=8.0.1",
+    "litellm>=1.89.1",
+    "pydantic>=2.12.5",
+    "streamlit>=1.58.0",
+]
